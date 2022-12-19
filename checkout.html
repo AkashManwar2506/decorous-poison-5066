@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="/style/checkout.css" />
     <link rel="icon" href="https://asset.brandfetch.io/id29nW3hsk/idOqV_JfxY.svg?updated=1667559944793" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/035c340386.js" crossorigin="anonymous"></script>
-    <title>Cultfit</title>
+    <title>checkout</title>
 </head>
 
 <body>
@@ -18,15 +18,49 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
+        <a href="./index.html">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
+           </a>
         <ul>
-            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a  href="./index.html">Home</a></li>
             <li><a href="./men.html">Men</a></li>
             <li><a href="./women.html">Women</a></li>
             <li><a href="./cart.html">Cart</a></li>
             <li><a href="./login.html">Login</a> / <a href="./signup.html">Sign Up</a></li>
         </ul>
     </nav>
+    <div id="container">
+        <div class="left">
+            <div class="cartTotal">
+                <h1>Cart Total : ₹</h1>
+                <h1 class="total"></h1>
+            </div>
+            <div class="innerLeft"></div>
+        </div>
+
+        <div class="right">
+            <h1>SHIPPING ADDRESS</h1>
+            <form id="form">
+                <div class="first">
+                    <input type="text" id="firstName" placeholder="*First Name">
+                    <input type="text" id="lastName" placeholder="*Last Name">
+                </div>
+                <div class="second">
+                    <input type="text" id="street" placeholder="*Street Address">
+                    <input type="text" id="apt" placeholder="Apt, building, area etec (Optional)">
+                </div>
+                <div class="third">
+                    <input id="zip" id="zip" type="text" placeholder="Zip Code">
+                    <input type="text" id="city" placeholder="*City">
+                    <input type="text" id="state" placeholder="State">
+                </div>
+                <div class="four">
+                    <input type="text" id="mobile" placeholder="*Enter Mobile">
+                </div>
+                <input type="submit" value="Save Address" class="style3">
+            </form>
+        </div>
+    </div>
 
     <div id="footer">
         <div>
@@ -64,3 +98,4 @@
 </body>
 
 </html>
+<script src="./src/checkout.js"></script>
