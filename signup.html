@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/signup.css" />
     <link rel="icon" href="https://asset.brandfetch.io/id29nW3hsk/idOqV_JfxY.svg?updated=1667559944793" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/035c340386.js" crossorigin="anonymous"></script>
-    <title>Cultfit</title>
+    <title>Signup</title>
 </head>
 
 <body>
@@ -18,15 +18,42 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
+        <a href="./index.html">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
+        </a>
         <ul>
-            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="./men.html">Men</a></li>
             <li><a href="./women.html">Women</a></li>
             <li><a href="./cart.html">Cart</a></li>
-            <li><a href="./login.html">Login</a> / <a href="./signup.html">Sign Up</a></li>
+            <li><a href="./login.html">Login</a> / <a class="active" href="./signup.html">Sign Up</a></li>
         </ul>
     </nav>
+    
+    <div id="main">
+        <a href="/index.html">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_135,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cultsport-black-logo.svg"
+                alt="logo">
+        </a>
+        <h2>SIGN UP NOW</h2>
+        <div class="box">
+            <form id="form">
+                <input type="text" placeholder="First name" class="style2" id="name">
+                <br />
+                <input type="text" placeholder="Last name" class="style2" id="last">
+                <br />
+                <input type="email" placeholder="E-mail" class="style2" id="email">
+                <br />
+                <input type="password" placeholder="Password" class="style2" id="password">
+                <br />
+                <input type="submit" value="CREATE ACCOUNT" class="style3">
+            </form>
+            <p">Already have an account? <a href="login.html">login</a></p>
+                <p> I agree to the
+                    Notice of <a href="">Financial Incentive.</a> To learn more,
+                    view our <a href="">Privacy Policy.</a></p>
+        </div>
+    </div>
 
     <div id="footer">
         <div>
@@ -64,3 +91,4 @@
 </body>
 
 </html>
+<script src="./src/signup.js"></script>

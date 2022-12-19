@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/cart.css" />
     <link rel="icon" href="https://asset.brandfetch.io/id29nW3hsk/idOqV_JfxY.svg?updated=1667559944793" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/035c340386.js" crossorigin="anonymous"></script>
-    <title>Cultfit</title>
+    <title>Cart</title>
 </head>
 
 <body>
@@ -18,15 +18,43 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
+        <a href="./index.html">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
+        </a>
         <ul>
-            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a  href="./index.html">Home</a></li>
             <li><a href="./men.html">Men</a></li>
             <li><a href="./women.html">Women</a></li>
-            <li><a href="./cart.html">Cart</a></li>
+            <li><a class="active" href="./cart.html">Cart</a></li>
             <li><a href="./login.html">Login</a> / <a href="./signup.html">Sign Up</a></li>
         </ul>
     </nav>
+    <div id="container">
+        <div class="left">
+        </div>
+
+        <div class="right">
+            <div class="top">
+                <div class="cartTotal">
+                    <h1>Cart Total : ₹</h1>
+                    <h1 class="total"></h1>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlWA5kqwZR63rkyAF90ccKk4VAB28WG96VVmvwXnq2o5660x9VjUet0uxOfC4yeY87-w&usqp=CAU"
+                    alt="" />
+                <p>SHIPPING METHOD : FREE</p>
+                <p>CASH ON DELEVERY : AVAILABLE</p>
+                <a href="/checkout.html">
+                    <button>Proceed To Checkout</button>
+                </a>
+            </div>
+
+            <div class="bottom">
+                <h2>OFFER CODE</h2>
+                <input placeholder="Coupon Code" />
+                <button>Apply</button>
+            </div>
+        </div>
+    </div>
 
     <div id="footer">
         <div>
@@ -64,3 +92,4 @@
 </body>
 
 </html>
+<script src="./src/cart.js"></script>
