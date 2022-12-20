@@ -112,6 +112,25 @@ a:hover {
   }
 }
 
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+.swiper img{
+  width: 100%;
+}
+#mid{
+  height: 899px;
+  padding-top: 600px;
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload//image/janus/unifiedCentersAndGyms/CenterMediaPlaceholder/Center1.jpg);
+}
+#mid img{
+  width: 40%;
+  margin: auto;
+  display: flex;
+  
+}
+
 /* footer */
 
 #footer {
