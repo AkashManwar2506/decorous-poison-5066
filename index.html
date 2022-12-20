@@ -1,66 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/index.css" />
-    <link rel="icon" href="https://asset.brandfetch.io/id29nW3hsk/idOqV_JfxY.svg?updated=1667559944793" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/035c340386.js" crossorigin="anonymous"></script>
-    <title>Cultfit</title>
-</head>
+    <link
+      rel="icon"
+      href="https://asset.brandfetch.io/id29nW3hsk/idOqV_JfxY.svg?updated=1667559944793"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/035c340386.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-<body>
+    <title>Cultfit</title>
+    <link rel="stylesheet" href="./style/index.css">
+  </head>
+
+  <body>
     <nav>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg" alt="logo" />
-        <ul>
-            <li><a class="active" href="./index.html">Home</a></li>
-            <li><a href="./men.html">Men</a></li>
-            <li><a href="./women.html">Women</a></li>
-            <li><a href="./cart.html">Cart</a></li>
-            <li><a href="./login.html">Login</a> / <a href="./signup.html">Sign Up</a></li>
-        </ul>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <img
+        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg"
+        alt="logo"
+      />
+      <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./men.html">Men</a></li>
+        <li><a href="./women.html">Women</a></li>
+        <li><a href="./cart.html">Cart</a></li>
+        <li>
+          <a href="./login.html">Login</a> / <a href="./signup.html">Sign Up</a>
+        </li>
+      </ul>
     </nav>
 
-    <div id="footer">
-        <div>
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg"
-                alt="logo" />
-            <p>cultsport offers top quality, best in class products which provide a holistic approach to fitness -
-                combining fitness products with best in class fitness content, features, coaching &amp; service.</p>
-        </div>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/c6588b59-95af-4211-986c-5ecbb2cf7b0e.png" alt=""></div>
+        <div class="swiper-slide"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/7dcc257a-2f4c-4caf-92d2-a08471f71a33.png" alt=""></div>
+        <div class="swiper-slide"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/fd72a85d-d0f4-4c42-a6ca-388d49e09bb5.png" alt=""></div>
+        <div class="swiper-slide"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/c66c9529-f602-4b66-bbaa-9878da66b142.png" alt=""></div>
+        <div class="swiper-slide"><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/acff7b8d-8dd9-44f6-8bca-3d58ef07cce4.png" alt=""></div>
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-        <div>
-            <p>Contact Us</p>
-            <p>Privacy Policy</p>
-            <p>Refund Policy</p>
-            <p>Terms & Conditions</p>
-            <p>Download Android App</p>
-        </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
 
-        <div>
-            <img class="android"
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/app-store.png"
-                alt="" />
-
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/google-play.png"
-                alt="" />
-
-            <div id="social">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-telegram"></i>
-                <i class="fa-brands fa-youtube"></i>
-            </div>
-        </div>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
     </div>
-</body>
 
+    <div id="mid">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/we-are-cult-logo/text-only-v2.png" alt="">
+    </div>
+
+    <div id="footer">
+      <div>
+        <img
+          src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cultsport-text.svg"
+          alt="logo"
+        />
+        <p>
+          cultsport offers top quality, best in class products which provide a
+          holistic approach to fitness - combining fitness products with best in
+          class fitness content, features, coaching &amp; service.
+        </p>
+      </div>
+
+      <div>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Refund Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Download Android App</p>
+      </div>
+
+      <div>
+        <img
+          class="android"
+          src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/app-store.png"
+          alt=""
+        />
+
+        <img
+          src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/google-play.png"
+          alt=""
+        />
+
+        <div id="social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-telegram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+<script src="./src/index.js"></script>
